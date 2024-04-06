@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 });
 
-// Evento pesquisa
+// Evento pesquisa - * NOVA FUNÇÃO *
 const searchInput = document.getElementById('searchInput');
 const searchButton = document.getElementById('searchButton');
 const searchResults = document.getElementById('searchResults');
