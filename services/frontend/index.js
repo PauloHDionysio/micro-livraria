@@ -90,9 +90,9 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Evento pesquisa
-const searchInput = document.querySelector('#searchInput');
-const searchButton = document.querySelector('#searchButton');
-const searchResults = document.querySelector('#searchResults');
+const searchInput = document.getElementById('searchInput');
+const searchButton = document.getElementById('searchButton');
+const searchResults = document.getElementById('searchResults');
 
 searchButton.addEventListener('click', () => {
     const search = searchInput.value;
